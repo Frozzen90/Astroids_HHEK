@@ -1,0 +1,16 @@
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\ResolveAssemblyReference.cache
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Properties.Resources.resources
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.GenerateResource.Cache
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.exe
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.pdb
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.exe
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.pdb
+D:\Meyer\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Form1.resources
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.exe
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.pdb
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Form1.resources
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Properties.Resources.resources
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.GenerateResource.cache
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.CoreCompileInputs.cache
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.exe
+I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.pdb

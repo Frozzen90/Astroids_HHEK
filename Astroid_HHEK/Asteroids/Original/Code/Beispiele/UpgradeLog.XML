@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="asteroid">
+</Property><Property Name="Projektmappendatei" Value="E:\Daten\Visual Studio Projects\Asteroids Wettbewerb\Code\Beispiele\asteroid.sln">
+</Property><Property Name="Date" Value="Sonntag, 27. April 2008">
+</Property><Property Name="Time" Value="10:18:11">
+</Property></Properties><Event ErrorLevel="2" Project="asteroid" Source="asteroid.vcproj" Description="Folgender XML-Parserfehler ist aufgetreten:&#xA;&#xA;Datei: E:\Daten\Visual Studio Projects\Asteroids Wettbewerb\Code\Beispiele\asteroid.vcproj&#xA;Zeile: 10&#xA;Spalte: 2&#xA;Fehlermeldung:&#xA;'9,00' verstößt gegen enumeration-Einschränkung von  '7.00 7,00 7.10 7,10 8.00 8,00'.&#xA;Analyse des Attributs 'Version' mit dem Wert '9,00' fehlgeschlagen.&#xA;&#xA;Die Datei &quot;E:\Daten\Visual Studio Projects\Asteroids Wettbewerb\Code\Beispiele\asteroid.vcproj&quot; konnte nicht geladen werden.">
+</Event><Event ErrorLevel="2" Project="asteroid" Source="asteroid.vcproj" Description="Fehler beim Aktualisieren des Projekts.">
+</Event><Event ErrorLevel="3" Project="asteroid" Source="asteroid.vcproj" Description="Nicht konvertiert">
+</Event></UpgradeLog>

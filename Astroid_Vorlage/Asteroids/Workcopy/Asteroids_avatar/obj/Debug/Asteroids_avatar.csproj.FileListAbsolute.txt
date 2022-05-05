@@ -14,3 +14,12 @@ I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.G
 I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.CoreCompileInputs.cache
 I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.exe
 I:\IA119\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.pdb
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.exe
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\bin\Debug\Asteroids_avatar.pdb
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.AssemblyReference.cache
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Form1.resources
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.Properties.Resources.resources
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.GenerateResource.cache
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.csproj.CoreCompileInputs.cache
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.exe
+F:\Berufsschule\AWE_MEI\004_Astroids\Astroid_Vorlage\Asteroids\Workcopy\Asteroids_avatar\obj\Debug\Asteroids_avatar.pdb

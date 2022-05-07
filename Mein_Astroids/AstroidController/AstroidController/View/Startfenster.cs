@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AstroidController.View
@@ -17,23 +10,22 @@ namespace AstroidController.View
             InitializeComponent();
         }
 
+        public Startfenster(MainController cntr)
+        {
+            InitializeComponent();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
-            ControllerManuell CM = new ControllerManuell();
-            CM.MdiParent = this;
-            CM.Show();
+            ((Container)MdiParent).LoadManuellPage();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
-            ControllerAutomatisch CA = new ControllerAutomatisch();
-            CA.MdiParent = this;
-            CA.Show();
+            ((Container)MdiParent).LoadAutomaticPage();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

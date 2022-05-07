@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\MainController.cs" />
+    <Compile Include="View\Container.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Container.Designer.cs">
+      <DependentUpon>Container.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\ControllerAutomatisch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Container.resx">
+      <DependentUpon>Container.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\ControllerAutomatisch.resx">
       <DependentUpon>ControllerAutomatisch.cs</DependentUpon>
     </EmbeddedResource>

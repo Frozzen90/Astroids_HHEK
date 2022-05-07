@@ -15,11 +15,6 @@ public class MainController
     public int Port { get => _port; set => _port = value; }
     public Socket Server { get => _server; set => _server = value; }
 
-    public bool Init_start()
-	{
-        return true;
-	}
-	
 	public MainController()
 	{
         IP_Adresse = "127.0.0.1";
@@ -36,11 +31,11 @@ public class MainController
 
     private void Connect()
     {
+        Server = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+        Ipendpoint = new IPEndPoint(IPAddress.Parse(IP_Adresse), Port);
         bool retry = false;
-        while (retry)
+        do
         {
-            Server = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-            Ipendpoint = new IPEndPoint(IPAddress.Parse(IP_Adresse), Port);
             try
             {
                 Server.Connect(Ipendpoint);
@@ -57,35 +52,10 @@ public class MainController
                     retry = false;
                 }
             }
-        }
+        } while (retry);
     }
-
-    public bool connect(string Adresse, int Port )
-	{
-        return true;
-	}
 	
-	public IPEndPoint getIPEndPoint()
-	{
-        return null;
-	}
-	
-	public String getIP_Adresse()
-	{
-        return null;
-	}
-	
-	public int getPort()
-	{
-        return 0;
-	}
-	
-	public Socket getServer()
-	{
-        return null;
-	}
-	
-	public void senden( Byte value )
+	public void send( Byte value )
 	{
         Byte[] Sendepuffer = new Byte[8];
         Byte[] Empfangspuffer = new Byte[1026];
@@ -116,20 +86,9 @@ public class MainController
 
         int wert = this.Server.Receive(Empfangspuffer);
 	}
-	
-	public void setIPEndPoint( IPEndPoint value )
-	{
-	}
-	
-	public void setIP_Adresse( String value )
-	{
-	}
-	
-	public void setPort( int value )
-	{
-	}
-	
-	public void setServer( Socket value )
-	{
-	}
+
+    public void RunAutomatic()
+    {
+
+    }
 }

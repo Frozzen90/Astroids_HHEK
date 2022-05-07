@@ -1,36 +1,66 @@
-
 using System.Net.Sockets;
 using System.Net;
 using System;
+using System.Windows.Forms;
 
 public class MainController
 {
-	private String IP_Adresse;
-	private IPEndPoint Ipendpoint;
-	private int Port;
-	private Socket Server;
-	
-	public bool Init_start()
+	private String _iP_Adresse;
+	private IPEndPoint _ipendpoint;
+	private int _port;
+	private Socket _server;
+
+    public string IP_Adresse { get => _iP_Adresse; set => _iP_Adresse = value; }
+    public IPEndPoint Ipendpoint { get => _ipendpoint; set => _ipendpoint = value; }
+    public int Port { get => _port; set => _port = value; }
+    public Socket Server { get => _server; set => _server = value; }
+
+    public bool Init_start()
 	{
         return true;
 	}
 	
 	public MainController()
 	{
-        Server = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-        Ipendpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1979);
-
-        try
-        {
-            Server.Connect(Ipendpoint);
-        }
-        catch (SocketException ex)
-        {
-            //Fehler abfangen
-        }
+        IP_Adresse = "127.0.0.1";
+        Port = 1979;
+        Connect();
 	}
-	
-	public bool connect( String Adresse, int Port )
+
+    public MainController(string iP_Adresse, int port)
+    {
+        IP_Adresse = iP_Adresse;
+        Port = port;
+        Connect();
+    }
+
+    private void Connect()
+    {
+        bool retry = false;
+        while (retry)
+        {
+            Server = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+            Ipendpoint = new IPEndPoint(IPAddress.Parse(IP_Adresse), Port);
+            try
+            {
+                Server.Connect(Ipendpoint);
+            }
+            catch (SocketException ex)
+            {
+                DialogResult DR = MessageBox.Show("Verbindung fehlgeschlagen!", "Verbindungsfehler", MessageBoxButtons.RetryCancel);
+                if (DR == DialogResult.Retry)
+                {
+                    retry = true;
+                }
+                else
+                {
+                    retry = false;
+                }
+            }
+        }
+    }
+
+    public bool connect(string Adresse, int Port )
 	{
         return true;
 	}
